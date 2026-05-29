@@ -1,0 +1,38 @@
+body{
+    margin:0;
+    font-family:Arial;
+    background:#f4f4f4;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:black;
+    color:white;
+    padding:15px 30px;
+}
+
+ul{
+    display:flex;
+    list-style:none;
+    gap:20px;
+}
+
+section{
+    padding:50px;
+}
+
+.home{
+    text-align:center;
+    background:#222;
+    color:white;
+    padding:100px 20px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    margin-top:20px;
+    border-radius:10px;
+}
